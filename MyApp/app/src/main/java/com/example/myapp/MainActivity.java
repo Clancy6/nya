@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             int statusCode = client.executeMethod(method);
             if (statusCode == 200) {
-                textViewConnectionResult.setText("连接成功");
+                textViewConnectionResult.setText("连接成功!");
             } else {
                 textViewConnectionResult.setText("连接失败，错误代码：" + statusCode);
             }
